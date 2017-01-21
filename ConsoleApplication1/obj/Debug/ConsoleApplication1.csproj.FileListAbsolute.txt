@@ -4,3 +4,9 @@ C:\Users\Gajju\documents\visual studio 2013\Projects\ConsoleApplication1\Console
 C:\Users\Gajju\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
 C:\Users\Gajju\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
 C:\Users\Gajju\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+D:\GSChauhan_Codebase\LogicTasks\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\GSChauhan_Codebase\LogicTasks\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\GSChauhan_Codebase\LogicTasks\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+D:\GSChauhan_Codebase\LogicTasks\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\GSChauhan_Codebase\LogicTasks\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\GSChauhan_Codebase\LogicTasks\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
