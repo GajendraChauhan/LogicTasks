@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -38,6 +39,51 @@ namespace ConsoleApplication1
             //ReverseStringTypeOne("Hello World");
 
             //ReverseStringUsingCharArray("Hello World");
+
+            //ReverseStringUsingTimer();
+        }
+
+        private static void ReverseStringUsingTimer()
+        {
+            var text = "abcdefghijklmnopqrstuvwxyz";
+
+            // test
+            var timer1 = Stopwatch.StartNew();
+            for (var i = 0; i < 100000; i++)
+            {
+                text = Reverse1(text);
+            }
+
+            timer1.Stop();
+            Console.WriteLine("First: {0}", timer1.ElapsedMilliseconds);
+
+            var timer2 = Stopwatch.StartNew();
+            for (var i = 0; i < 100000; i++)
+            {
+                text = Reverse2(text);
+            }
+
+            timer2.Stop();
+            Console.WriteLine("Second: {0}", timer2.ElapsedMilliseconds);
+
+            Console.ReadLine();
+        }
+
+        private static string Reverse2(string text)
+        {
+            char[] charArray = text.ToCharArray();
+            Array.Reverse(charArray);
+            return new string(charArray);
+        }
+
+        private static string Reverse1(string text)
+        {
+            string builder = string.Empty;
+            for (int i = text.Length - 1; i >= 0; i--)
+            {
+                builder += text[i];
+            }
+            return builder;
         }
 
         /// <summary>
@@ -62,7 +108,7 @@ namespace ConsoleApplication1
         private static void ReverseStringTypeOne(string val)
         {
             string[] reverse = val.Split(' ');
-            string output = "";
+            string output = string.Empty;
 
             for (int i = 0; i < reverse.Length; i++)
             {
@@ -274,7 +320,8 @@ namespace ConsoleApplication1
         private static void CharCountByLinq()
         {
             string countDuplicates = "aabbbccccddeeeegggggggggggfffhijkl";
-            var result = countDuplicates.GroupBy(x => x).Where(x => x.Count() > 1).Select(z => new { CharName = z.Key, CharCount = z.Count() });
+            var result = countDuplicates.GroupBy(x => x).Where(x => x.Count() > 1)
+                            .Select(z => new { CharName = z.Key, CharCount = z.Count() });
             foreach (var item in result)
             {
                 Console.WriteLine(item);
