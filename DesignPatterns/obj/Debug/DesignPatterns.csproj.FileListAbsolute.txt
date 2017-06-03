@@ -1,0 +1,6 @@
+D:\GSChauhan_Codebase\LogicTasks\DesignPatterns\bin\Debug\DesignPatterns.exe.config
+D:\GSChauhan_Codebase\LogicTasks\DesignPatterns\bin\Debug\DesignPatterns.exe
+D:\GSChauhan_Codebase\LogicTasks\DesignPatterns\bin\Debug\DesignPatterns.pdb
+D:\GSChauhan_Codebase\LogicTasks\DesignPatterns\obj\Debug\DesignPatterns.csprojResolveAssemblyReference.cache
+D:\GSChauhan_Codebase\LogicTasks\DesignPatterns\obj\Debug\DesignPatterns.exe
+D:\GSChauhan_Codebase\LogicTasks\DesignPatterns\obj\Debug\DesignPatterns.pdb
