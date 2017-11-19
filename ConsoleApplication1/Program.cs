@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication1
+namespace BasicLogicalTasks
 {
     class Program
     {
@@ -16,7 +16,7 @@ namespace ConsoleApplication1
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            //CharCountByLinq();
+            CharCountByLinq();
 
             //CharCountByLoops();
 
